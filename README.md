@@ -223,3 +223,5 @@ enable_dns_support = "true"
 
 preferred_number_of_public_subnets = 2
 ```
+
+![structure](https://user-images.githubusercontent.com/7505497/146411974-8ca3da60-069f-4f5a-a4e8-0112ccda6c50.png)
