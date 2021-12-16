@@ -23,5 +23,5 @@ variable "enable_classiclink_dns_support" {
 }
 
 variable "preferred_number_of_public_subnets" {
-  default = null
+  default = 2
 }
