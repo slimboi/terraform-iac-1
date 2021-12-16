@@ -44,6 +44,7 @@ resource "aws_vpc" "main" {
 }
 ```
 - Now we download the required plugins for Terraform to work using the **terraform init** command. These plugins are used by providers and provisioners
+- 
 ![init](https://user-images.githubusercontent.com/7505497/146406447-ae58b119-47c2-4969-9caf-6293dd25ed08.png)
 
 - Next, run **terraform plan** to preview the changes that Terraform will make.
