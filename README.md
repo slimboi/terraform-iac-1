@@ -226,4 +226,4 @@ preferred_number_of_public_subnets = 2
 - Now the terraform folder should have the files listed below 
 ![structure](https://user-images.githubusercontent.com/7505497/146411974-8ca3da60-069f-4f5a-a4e8-0112ccda6c50.png)
 
-- When we run **terraform plan** and ** terraform apply** now, a vpc and 2 subnets will be created in our AWS account.
+- When we run **terraform plan** and **terraform apply** now, a vpc and 2 subnets will be created in our AWS account.
