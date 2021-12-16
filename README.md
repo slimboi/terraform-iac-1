@@ -227,3 +227,5 @@ preferred_number_of_public_subnets = 2
 ![structure](https://user-images.githubusercontent.com/7505497/146411974-8ca3da60-069f-4f5a-a4e8-0112ccda6c50.png)
 
 - When we run **terraform plan** and **terraform apply** now, a vpc and 2 subnets will be created in our AWS account.
+
+![final code](https://user-images.githubusercontent.com/7505497/146413206-b8f8a812-56ea-4d40-a38a-f73323e01581.png)
