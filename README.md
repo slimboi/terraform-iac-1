@@ -11,6 +11,7 @@ ___
 - For easier authentication configuration – use A**WS CLI** with *aws configure* command.
 
 * Create an S3 bucket to store Terraform state file. You can name it something like *yourname-dev-terraform-bucket*.
+  ![terraform bucket](https://user-images.githubusercontent.com/7505497/146407133-4cbba08b-119f-46f3-a114-df3c13429df6.png)
 
 * When you have configured authentication and installed boto3, make sure you can programmatically access your AWS account by running following commands in >python:
 
@@ -44,7 +45,7 @@ resource "aws_vpc" "main" {
 }
 ```
 - Now we download the required plugins for Terraform to work using the **terraform init** command. These plugins are used by providers and provisioners.
-- ![init](https://user-images.githubusercontent.com/7505497/146406447-ae58b119-47c2-4969-9caf-6293dd25ed08.png)
+  ![init](https://user-images.githubusercontent.com/7505497/146406447-ae58b119-47c2-4969-9caf-6293dd25ed08.png)
 
 - Next, run **terraform plan** to preview the changes that Terraform will make.
 - Now apply the changes using **terraform apply**.
