@@ -50,6 +50,7 @@ resource "aws_vpc" "main" {
 
 - Next, run **terraform plan** to preview the changes that Terraform will make.
 - Now apply the changes using **terraform apply**.
+
   ![vpc](https://user-images.githubusercontent.com/7505497/146406972-d2a2ef48-c65e-4168-b101-d12bf38ae30f.png)
 
 ## Create Subnet Resources
